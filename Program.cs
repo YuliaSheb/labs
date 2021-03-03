@@ -1,29 +1,26 @@
-﻿//Implement effective mixing of the characters in the string
+﻿//Find all the capital letters in it that are not included in the English alphabet.
 using System;
 
-namespace shuffle
+namespace zaglavnbukv
 {
     class Program
     {
-        static String Shuffle(String s)
+        static void FindNonEnglish(String s)
         {
-            var rand = new Random();
-            var cArr = s.ToCharArray();
-            for (var j = cArr.Length - 1; j > 0; j--)
+            foreach (char c in s)
             {
-                var i = rand.Next(j);
-                char c = cArr[i];
-                cArr[i] = cArr[j];
-                cArr[j] = c;
+                if (char.IsUpper(c) && (c > 90))
+                {
+                    Console.WriteLine(c);
+                }
             }
-            return new string(cArr);
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the line" );
-            string letters = Console.ReadLine();
-            String res = Shuffle(letters);
-            Console.WriteLine(res);
+            String s;
+            Console.WriteLine("Enter the line:");
+            s = Console.ReadLine();
+            FindNonEnglish(s);
         }
     }
 }
