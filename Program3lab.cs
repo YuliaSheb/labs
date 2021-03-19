@@ -5,10 +5,6 @@ namespace ConsoleApp3
 {
     class Human
     {
-        /*public string name;
-        public string surname;
-        public int age;
-        public string specialty;*/
         private static void Id()
         {
             Console.WriteLine("Unique Id student");
