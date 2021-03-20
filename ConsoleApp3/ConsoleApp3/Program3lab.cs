@@ -17,7 +17,7 @@ namespace ConsoleApp3
             int sum = 0;
             int t = 0;
             int srednarifm;
-            Console.WriteLine("Enter the student's grades for the subject tools and programming tools( separated by a space):");
+            Console.WriteLine("Enter the student's grades for the subject tools and programming tools:");
             while (true)
             {
                 int mark = Convert.ToInt32(Console.ReadLine());
