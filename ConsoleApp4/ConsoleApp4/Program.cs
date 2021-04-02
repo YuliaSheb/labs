@@ -35,7 +35,7 @@ namespace ConsoleApp4
                         }
                         catch
                         {
-                            Console.WriteLine("Incorrect...Enter the age");
+                            Console.WriteLine("Incorrect....Enter the age");
                             hum.Age = Convert.ToInt32(Console.ReadLine());
                         }
                         Console.WriteLine("Enter the univercity");
