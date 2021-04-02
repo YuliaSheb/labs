@@ -29,7 +29,15 @@ namespace ConsoleApp4
                         Console.WriteLine("Enter the surname");
                         hum.Surname = Console.ReadLine();
                         Console.WriteLine("Enter the age");
-                        hum.Age = Convert.ToInt32(Console.ReadLine());
+                         try
+                        {
+                            hum.Age = Convert.ToInt32(Console.ReadLine());
+                        }
+                        catch
+                        {
+                            Console.WriteLine("Incorrect...Enter the age");
+                            hum.Age = Convert.ToInt32(Console.ReadLine());
+                        }
                         Console.WriteLine("Enter the univercity");
                         hum.Univercity = Console.ReadLine();
                         Console.WriteLine("Enter the specialty");
