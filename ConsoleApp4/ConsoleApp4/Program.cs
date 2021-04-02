@@ -44,6 +44,7 @@ namespace ConsoleApp4
                         hum.Specialty = Console.ReadLine();
                         inf.Student();
                         person[i] = hum;
+                        Console.WriteLine(person[i].Name + " " + person[i].Surname + " ," + person[i].Age + " year," + person[i].Univercity + " ," + person[i].Specialty);
                         i++;
                         break;
                     case 2:
