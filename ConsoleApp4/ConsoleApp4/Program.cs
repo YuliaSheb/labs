@@ -9,19 +9,19 @@ namespace ConsoleApp4
             Human hum = new Human();
             int i = 0;
             Person person = new Person();
-            int sw = 0;
-            while (sw != 2)
+            int s = 0;
+            while (s != 2)
             {
                 Console.WriteLine("1 - Get info\n2- Exit");
                 try
                 {
-                    sw = Convert.ToInt32(Console.ReadLine());
+                    s = Convert.ToInt32(Console.ReadLine());
                 }
                 catch
                 {
                     Console.Clear();
                 }
-                switch (sw)
+                switch (s)
                 {
                     case 1:
                         Console.WriteLine("Enter the name");
