@@ -1,0 +1,7 @@
+C:\Users\Юля\source\Yyaannaa\Parik\Parik\bin\Debug\Parik.exe.config
+C:\Users\Юля\source\Yyaannaa\Parik\Parik\bin\Debug\Parik.exe
+C:\Users\Юля\source\Yyaannaa\Parik\Parik\bin\Debug\Parik.pdb
+C:\Users\Юля\source\Yyaannaa\Parik\Parik\obj\Debug\Parik.csprojAssemblyReference.cache
+C:\Users\Юля\source\Yyaannaa\Parik\Parik\obj\Debug\Parik.csproj.CoreCompileInputs.cache
+C:\Users\Юля\source\Yyaannaa\Parik\Parik\obj\Debug\Parik.exe
+C:\Users\Юля\source\Yyaannaa\Parik\Parik\obj\Debug\Parik.pdb
